@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tadasets"
+version = "0.1.0"
+description = ""
+authors = ["Taylor Henderson <tph5595@verizon.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+setuptools = "^65.3.0"
+wheel = "^0.37.1"
+ripser = "^0.6.4"
+Cython = "^0.29.32"
+pandas = "^1.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
